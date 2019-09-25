@@ -89,6 +89,7 @@ function App() {
               <div className={`todo ${todo.isCompleted && 'todo-is-completed'}`}>
                 <div className={'checkbox'} onClick={() => toggleTodoCompleteAtIndex(i)}>
                   {todo.isCompleted && (
+                    // HTML for CHECKMARK
                     <span>&#x2714;</span>
                   )}
                 </div>
